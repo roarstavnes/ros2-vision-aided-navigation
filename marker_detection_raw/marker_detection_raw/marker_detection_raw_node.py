@@ -52,7 +52,7 @@ class markerDetectionRaw(Node):
 
         self.img_pose_pub = self.create_publisher(
             PoseArray,
-            '/camera/pose_raw',
+            '/camera/poses',
             1
         )
 
